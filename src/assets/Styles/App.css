@@ -1,0 +1,236 @@
+body {
+  background-color:#f2ebf7;;
+}
+.text{
+  margin-right: 2rem;
+}
+
+.Nav {
+background-color:  #5b0596;;
+height: 3.5rem;
+border-radius: 5px;
+text-decoration: none;
+position: fixed;
+width: 98.4%; 
+}
+
+.status-DropDown{
+  width: 10%;
+  margin-bottom: 16px;
+}
+
+.nav-li {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.all { 
+text-decoration: none;
+font-size: 20px;
+color: white;
+display: flex;
+}
+
+.all li{
+  color: #f2ebf7;
+  list-style: none;
+}
+
+.dash {
+  text-decoration: none;
+}
+/* =========================navbar========================= */
+
+/* =========================   List   ======================== */
+
+.List-All {
+  margin-top: 10vh;
+}
+.List{
+ border: 1px solid #5b0596; 
+  padding:  15px;
+  margin: auto;
+ width: 98%;
+ text-align: center;
+}
+
+.btn{
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.filterSearchData{
+  width: 18rem;
+  overflow-x: auto;
+  height: 100px;
+}
+
+.one{
+  background-color: rgb(241, 200, 209);
+  text-align: center;
+}
+
+.Pagination-1 {
+  margin-top: 30px;
+  margin-left: 58rem; 
+  margin-bottom: 30px;
+}
+.completed{
+  margin-bottom: 1rem;
+}
+ 
+.all-Check-box {
+  border: 1px solid #cbc4c4;
+  height: 37px;
+  width: 19.5rem;
+  background: white;
+  border-radius: 5px;
+}
+
+.completed{
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+.check-box {
+  margin-top: 5px;
+  margin-left: 12px;
+  display: flex;
+}
+
+.radio-button {
+margin-left: 24px;
+}
+
+.form-cont {
+border: 1px solid #cbc4c4;
+width: 19.5rem;
+border-radius: 5px;
+width: 25%;
+height: 37px;
+}
+
+.table-tr {
+  color: #55048b
+}
+
+
+.hover :hover {
+  background-color: #e6c7fa;
+  color: #55048b
+}
+
+/* =========================   List   ======================== */
+
+/* =========================    Create    ======================= */
+.form {
+  margin-top: 50px;
+}
+
+.formPage {
+  justify-content: space-around;
+}
+
+.img-1 {
+  margin-top: 15vh;
+}
+.check{
+  
+  margin-top: 1rem;
+}
+.submit {
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+/* =========================    Create    ======================= */
+.table > :not(caption) > * > *  {
+  border-bottom-width: 2px;
+}
+/* =========================    Search    ======================= */
+
+.h-3 {
+  color: #55048b;
+  margin-left: 5rem;
+}
+
+.search-h-3 {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.margin-right-3{
+  margin-right: 10px;
+}
+
+/* =========================    Dashboard   ======================= */
+
+.chart {
+  text-align: center;
+  margin-top: 15vh;
+  color: #c688f0;
+  box-shadow: 1px 2px 10px#743c99;
+}
+
+.spinner-border{
+  text-align: center;
+  margin-top: 45vh;
+  margin-left: 75vh;
+  color: #c688f0;
+  height: 10vh;
+  width: 10vh;
+}
+
+.list-side{
+  text-align: center;
+  margin-top: 1vh;
+  margin-left:2vh;
+  color: #c688f0;
+  height: 5vh;
+  width: 5vh;
+}
+
+.btn-danger:hover{
+   background-color: darkred;
+   color: #fff;
+}
+
+.btn-primary:hover{
+  background-color: darkblue;
+  color: #fff;
+}
+
+.nav a {
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-right: 10px;
+}
+
+.nav a.active {
+  color: #fff;
+  background: #7600dc;
+}
+.nav a.inactive {
+  font-style: italic;
+}
+.set-dropdown{
+  position: relative;
+
+}
+.set-dropdown .filterSearchData{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+}
+.completed-label{
+  position: relative;
+  top: -9px;
+  left: -5px;
+}
+.searchResultCloseHandler{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
